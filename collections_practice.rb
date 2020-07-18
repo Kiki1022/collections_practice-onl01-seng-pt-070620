@@ -46,15 +46,3 @@ def add_s(array)
   array2
 end
 
-# def add_s(array)
-#   array2 = []
-#   array.each do |index, element|
-#     ## have an "if" statement in here which checks the index
-#     ## if the index is 1, just push the element into array2 
-    
-#     ## if NOT (else), push the element + "s"
-    
-#   end 
-#   array2
-# end
-  
