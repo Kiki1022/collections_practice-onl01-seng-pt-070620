@@ -28,6 +28,6 @@ end
 
 def find_a(array)
 array2 = []
-array2 << start_with? {|string| string[0] = "a"}
+array2 << include? {|string| string[0] = "a"}
 array2
 end
