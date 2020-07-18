@@ -40,6 +40,6 @@ def add_s(array)
   array.each do|element|
   puts element + "s"
 end
-end
+array2
   
   
