@@ -38,6 +38,9 @@ end
 def add_s(array)
   array2 = []
     array.each do |index, element|
+    if (index == 1)
+      array2 <<
+    
     array2 << element + "s"
     array2 << array[1]  
   end 
