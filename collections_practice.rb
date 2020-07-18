@@ -40,8 +40,8 @@ def add_s(array)
     array.each do |index, element|
     end 
   if 
-    array[1] == index
-    array2 << index
+    #array[1] == index
+    array2 << array[1]
   else
     array2 << element + "s"
   end
