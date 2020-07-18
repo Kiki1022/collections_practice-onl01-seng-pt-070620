@@ -36,8 +36,8 @@ def sum_array(array)
 end  
   
 def add_s(array)
-  array.each do|index|
-  puts "#{index} + "s"}"
+  array.each do|element|
+  puts "element + "s"}"
 end
   
   
