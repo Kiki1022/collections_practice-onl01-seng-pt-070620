@@ -27,7 +27,7 @@ end
 
 
 def find_a(array)
-array2 = []
-  array2 << array.include? {|string| string[0] = "a"}
-array2
+#array2 = []
+  array.find_all {|string| string[0] = "a"}
+#array2
 end
