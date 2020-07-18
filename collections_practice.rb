@@ -39,9 +39,9 @@ def add_s(array)
   array2 = []
   array2 << array[1]  
   array.each do |index, element|
- 
+ array2 << element + "s"
  end 
-  array2 << element + "s"
+  
   end
   array2
 end
