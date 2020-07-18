@@ -41,5 +41,5 @@ def add_s(array)
   puts element + "s"
 end
 array2
-  
+end
   
