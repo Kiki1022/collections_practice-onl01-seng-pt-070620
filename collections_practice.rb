@@ -27,7 +27,7 @@ end
 
 
 def find_a(array)
-array2 = array
+array2 = []
 array2 << array.any? {|string| string[0] = "a"}
 array2
 end
