@@ -37,7 +37,7 @@ end
   
 def add_s(array)
   array.each do|element|
-  puts element + "s""
+  puts element + "s"
 end
 end
   
