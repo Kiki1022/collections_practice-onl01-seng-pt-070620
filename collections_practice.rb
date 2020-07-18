@@ -43,7 +43,7 @@ def add_s(array)
     else
     array2 << element + "s"
     end
-    end 
+  end 
   array2
 end
 
