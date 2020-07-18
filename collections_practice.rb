@@ -37,13 +37,26 @@ end
   
 def add_s(array)
   array2 = []
+  array.each do |index, element|
+  end 
   if 
-  array.each do|element|
-  puts element + "s"
+    array[1] == index|
+    array2 << index
+  else
+  array2 << element + "s"
 end
 array2
 end
 
-
+# def add_s(array)
+#   collection = []
+#   array.each do |index, element|
+#     if array[1] == index
+#       collection << index
+#     else 
+#       collection << element + "s" 
+# end
+#   collection
+# end
 
   
