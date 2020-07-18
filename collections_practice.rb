@@ -28,6 +28,6 @@ end
 
 def find_a(array)
 array2 = []
-array2 << array.return {|string| string[0] = "a"}
+array2 << array.only {|string| string[0] = "a"}
 array2
 end
