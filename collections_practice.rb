@@ -40,7 +40,6 @@ def add_s(array)
     array.each do |index, element|
     array2 << element + "s"
     array2 << array[1]  
-    
   end 
   array2
 end
