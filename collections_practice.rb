@@ -27,9 +27,7 @@ end
 
 
 def find_a(array)
-#array2 = []
   array.select {|string| string[0] == "a"}
-#array2
 end
 
 
