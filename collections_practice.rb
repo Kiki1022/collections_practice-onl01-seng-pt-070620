@@ -36,10 +36,10 @@ def sum_array(array)
 end  
   
 def add_s(array)
-  array2 = []
-    array2 << array[1]  
-    array.each do |index, element|
+  array2 = []array.each do |index, element|
     array2 << element + "s"
+    array2 << array[1]  
+    
   end 
   array2
 end
