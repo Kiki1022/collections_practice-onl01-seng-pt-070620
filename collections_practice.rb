@@ -36,7 +36,7 @@ def sum_array(array)
 end  
   
 def add_s(array)
-  array = array2
+  array = array2[]
   array.each do|element|
   puts element + "s"
 end
