@@ -48,15 +48,4 @@ def add_s(array)
   array2
 end
 
-# def add_s(array)
-#   collection = []
-#   array.each do |index, element|
-#     if array[1] == index
-#       collection << index
-#     else 
-#       collection << element + "s" 
-# end
-#   collection
-# end
-
   
