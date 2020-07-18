@@ -37,7 +37,7 @@ end
   
 def add_s(array)
   array2 = []
-    array.each_with_index do |index, element|
+    array.each_with_index do|index, element|
     if (index == 1)
       array2 << array[1]
     else
